@@ -2,7 +2,7 @@ print('-------------------------------------')
 print('         CAT FACTORY APP             ')
 print('-------------------------------------')
 
-
+# Rahul Akkem
 # below imports all files needed as well as other which i tried to use but couldn't and found another way to solve
 import os
 import urllib.request
@@ -76,7 +76,7 @@ def get_folder_name():
 
 def get_url():
     # has a default url and asks for user if they want to use another and if so they can input
-    url_name='http://consuming-python-services-api.azurewebsites.net/content/cats/lolcat2.jpg'
+    url_name='http://consuming-python-services-api.azurewebsites.net/cats/random'
     d_try=None
     while d_try is None:
         decision = input('Current url is: %s would you like to use this url or not: [y]es or [n]o' % url_name)
